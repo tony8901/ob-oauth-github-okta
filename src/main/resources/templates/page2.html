@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome to secure page</h1>
+<div>
+    <div>
+        User Name: <span th:text="${userName}"></span>
+    </div>
+    <div>
+        Client Name: <span th:text="${clientName}"></span>
+    </div>
+    <span>Go to </span><a href="/">home</a>
+</div>
+</body>
+</html>
